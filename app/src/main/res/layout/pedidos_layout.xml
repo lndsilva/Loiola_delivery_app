@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/novo_fundo"
+    android:orientation="vertical"
     tools:context=".Pedidos_Activity">
 
     <ImageView
@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/pizzalogo" />
-
 
     <Button
         android:id="@+id/btnfazerpedido"
@@ -26,36 +25,34 @@
         android:text="Faça seu pedido"
         android:textStyle="bold" />
 
-
     <Button
-
+        android:id="@+id/btnMeusPedidos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginHorizontal="70dp"
         android:backgroundTint="#0B700F"
-        android:text="MEUS PEDIDOS"
+        android:text="Meus Pedidos"
         android:textStyle="bold" />
 
-
     <Button
+        android:id="@+id/btnInfomacoes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginHorizontal="70dp"
         android:backgroundTint="#B6A407"
-        android:text="INFORMAÇÕES"
+        android:text="Informações"
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/btnHorarioFuncionamento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="200dp"
         android:backgroundTint="#880A0A"
-        android:text="HORÁRIO DE FUNCIONAMENTO"
+        android:text="Horário de Funcionamento"
         android:textStyle="bold" />
-
-
 </LinearLayout>

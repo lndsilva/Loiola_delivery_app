@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Loiola_delivery_app">
-        <activity android:name=".Pedidos_Activity"></activity>
-        <activity android:name=".Splash_Activity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".FacaPedidos_Activity"
+            android:theme="@style/temaSemBarra"></activity>
+        <activity android:name=".HorarioFuncionamento_Activity" />
+        <activity android:name=".Informacoes_Activity" />
+        <activity android:name=".MeusPedidos_Activity" />
+        <activity
+            android:name=".Pedidos_Activity"
+            android:theme="@style/temaSemBarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Splash_Activity" />
     </application>
 
 </manifest>
